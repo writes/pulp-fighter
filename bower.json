@@ -1,0 +1,9 @@
+{
+  "name": "pulp-fighter",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "i18next": "~2.2.0"
+  },
+  "devDependencies": {}
+}

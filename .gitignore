@@ -12,5 +12,12 @@
 # Compiled CSS
 # templates/css
 
-# Node
+# Node/NPM
 node_modules
+*.log
+
+# Bower
+/bower_components
+
+# Translations
+# /translations/*.json

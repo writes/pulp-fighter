@@ -1,13 +1,32 @@
 {
+  "author": "Jonathon Thompson <jonathonhthompson@gmail.com>",
   "name": "pulp-fighter",
   "version": "1.0.0",
-  "description": "Site built with Django describing who JT really is",
-  "author": "writes <jonathonhthompson@gmail.com>",
+  "description": "Site built with Django describing who Jonathon really is",
+  "homepage": "",
   "license": "MIT",
-  "scripts": {
-    "start": "python ./manage.py runserver",
-    "build": "lessc ./mysite/polls/static/polls/styleguide/less/main.less ./mysite/polls/static/polls/styleguide/css/main.css"
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/writes/pulp-fighter.git"
   },
-  "repository": "https://github.com/writes/pulp-fighter.git",
-  "homepage": "https://github.com/writes/pulp-fighter#readme"
+  "scripts": {
+    "start": "python manage.py runserver",
+    "build": "lessc ./mysite/polls/static/polls/styleguide/less/main.less ./mysite/polls/static/polls/styleguide/css/main.css",
+    "postinstall": "bower update"
+  },
+  "dependencies": {
+    "conventional-changelog": "0.0.11",
+    "gulp": "3.8.10",
+    "gulp-bump": "0.1.11",
+    "gulp-clean": "0.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "1.9.0",
+    "gulp-less": "1.3.6",
+    "gulp-minify-css": "0.3.11",
+    "gulp-uglify": "^1.2.0"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
 }
