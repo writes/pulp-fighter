@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+
+# IDE
+.idea
+
+# Tests
+
+# Copied JS
+# /js/lib.js
+
+# Compiled CSS
+# templates/css
+
+# Node
+node_modules
