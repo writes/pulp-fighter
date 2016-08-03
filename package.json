@@ -1,0 +1,13 @@
+{
+  "name": "pulp-fighter",
+  "version": "1.0.0",
+  "description": "Site built with Django describing who JT really is",
+  "author": "writes <jonathonhthompson@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "python ./manage.py runserver",
+    "build": "lessc ./mysite/polls/static/polls/styleguide/less/main.less ./mysite/polls/static/polls/styleguide/css/main.css"
+  },
+  "repository": "https://github.com/writes/pulp-fighter.git",
+  "homepage": "https://github.com/writes/pulp-fighter#readme"
+}
