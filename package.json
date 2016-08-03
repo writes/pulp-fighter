@@ -11,7 +11,7 @@
     "url": "https://github.com/writes/pulp-fighter.git"
   },
   "scripts": {
-    "start": "python manage.py runserver",
+    "server": "cd writesSite && python manage.py runserver",
     "build": "lessc ./mysite/polls/static/polls/styleguide/less/main.less ./mysite/polls/static/polls/styleguide/css/main.css",
     "postinstall": "bower update"
   },
