@@ -5,16 +5,15 @@
   "description": "Site built with Django describing who Jonathon really is",
   "homepage": "",
   "license": "MIT",
-  "private": true,
+  "engines":"node",
   "repository": {
     "type": "git",
     "url": "https://github.com/writes/pulp-fighter.git"
   },
   "scripts": {
-    "activate": "source env/bin/activate",
-    "server": "cd writesSite && python manage.py runserver",
-    "migrate": "cd writesSite && python manage.py migrate",
-    "build": "lessc ./mysite/polls/static/polls/styleguide/less/main.less ./mysite/polls/static/polls/styleguide/css/main.css",
+    "server": "python manage.py runserver",
+    "build": "python manage.py migrate",
+    "less": "lessc ./mysite/polls/static/polls/styleguide/less/main.less ./mysite/polls/static/polls/styleguide/css/main.css",
     "postinstall": "bower update"
   },
   "dependencies": {

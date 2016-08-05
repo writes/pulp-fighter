@@ -12,5 +12,10 @@ Created and maintained by Jonathon Thompson (jonathonhthompson@gmail.com) [GitHu
 
 ```bash
 git clone git@github.com:writes/pulp-fighter.git
-```
 
+source env/bin/activate
+
+cd writesSite
+
+python manage.py runserver
+```
